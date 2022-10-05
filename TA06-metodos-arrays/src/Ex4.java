@@ -6,9 +6,8 @@ public class Ex4 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Introduce un número para calcular su factorial");
 		long n= teclado.nextLong();
+		teclado.close();
 		System.out.println(factorial(n));
-		
-
 	}
 	
 	public static long factorial(long n) {
